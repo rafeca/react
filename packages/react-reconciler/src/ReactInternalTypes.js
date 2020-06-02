@@ -262,9 +262,6 @@ type BaseFiberRootProperties = {|
   mutableReadLanes: Lanes,
 
   finishedLanes: Lanes,
-
-  entangledLanes: Lanes,
-  entanglements: LaneMap<Lanes>,
 |};
 
 // The following attributes are only used by interaction tracing builds.
